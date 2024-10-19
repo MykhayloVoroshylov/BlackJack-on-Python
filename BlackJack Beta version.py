@@ -1,4 +1,3 @@
-# to be fixed: computer cards handling; ending() function
 from random import randint
 play=True
 playtime = "0"
