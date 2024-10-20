@@ -283,8 +283,8 @@ def ending(playercards_values, computercards_values, computercards, playercards)
         print("It's a Tie!")
     
 
-    print("Your cards: ", computercards_values)
-    print("Computer cards: ", playercards_values)
+    print("Your cards: ", playercards_values)
+    print("Computer cards: ", computercards_values)
     print("Player: ", playercards)
     print("Computer: ", computercards)
     print("_________________________________")
@@ -300,7 +300,7 @@ while play==True:
         card_giveaway()
         playercards = action(playercards)
         computercards = actioncomputer(computercards)
-        ending(computercards_values, playercards_values, computercards, playercards)
+        ending(playercards_values, computercards_values, computercards, playercards)
         playagain = input ("Would you like to play again? (yes/no): ")
         if playagain == "yes":
             print("________________________")
