@@ -265,7 +265,9 @@ def actioncomputer(computercards):
         
 def ending(playercards_values, computercards_values, computercards, playercards):
     global score_player, score_computer
-    if playercards > 21:
+    if computercards > 21 and playercards > 21:
+        print ("Both computer and player have over 21. No one wins.")
+    elif playercards > 21:
         print("Player Busts! Computer Wins!")
         score_computer += 1
     elif computercards > 21:
@@ -336,17 +338,3 @@ while play==True:
                 elif playagain == "no":
                     play=False
                     break
-
-
-
-
-
-
-
-
-
-
-
-
-
-
