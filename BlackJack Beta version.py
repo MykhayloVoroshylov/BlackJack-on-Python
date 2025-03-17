@@ -1,3 +1,8 @@
+'''To improve:
+1. Make it shown if computer is hitting or staying,
+2. Show who is the dealer (2 modes player/dealer)
+3. 1 card up at the beginning'''
+
 from random import randint
 play=True
 playtime = "0"
@@ -336,3 +341,5 @@ while play==True:
                 elif playagain == "no":
                     play=False
                     break
+
+#©MykhayloVoroshylov
