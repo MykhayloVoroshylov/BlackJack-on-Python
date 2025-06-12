@@ -1,4 +1,4 @@
-'''To improve:
+'''To improve: (those are not bugs yet, those are to be added)
 1. Make it shown if computer is hitting or staying,
 2. Show who is the dealer (2 modes player/dealer)
 3. 1 card up at the beginning'''
