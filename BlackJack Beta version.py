@@ -4,6 +4,7 @@
 3. 1 card up at the beginning'''
 
 from random import randint
+dealer = "computer"
 play=True
 playtime = "0"
 score_player = 0
@@ -286,8 +287,8 @@ def ending(playercards_values, computercards_values, computercards, playercards)
         print("It's a Tie!")
     
 
-    print("Your cards: ", computercards_values)
-    print("Computer cards: ", playercards_values)
+    print("Your cards: ", playercards_values)
+    print("Computer cards: ", computercards_values)
     print("Player: ", playercards)
     print("Computer: ", computercards)
     print("_________________________________")
